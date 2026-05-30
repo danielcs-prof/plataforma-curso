@@ -6,7 +6,7 @@ export const NavRouter = ()=>{
     return(
         <Routes>
             <Route path="/" element={<HomePage/>} />
-            <Route path="/sgcursos" element={<SGCursos/>} />
+            <Route path="/sgcursos/*" element={<SGCursos/>} />
         </Routes>
     );
 }
